@@ -13,6 +13,9 @@
 		4912A3792644A66000452783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4912A3772644A66000452783 /* Main.storyboard */; };
 		4912A37B2644A66900452783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4912A37A2644A66900452783 /* Assets.xcassets */; };
 		4912A37E2644A66900452783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4912A37C2644A66900452783 /* LaunchScreen.storyboard */; };
+		4912A3872644A6CA00452783 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A3862644A6CA00452783 /* APICaller.swift */; };
+		49733A0D2644C06C005880EB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49733A0C2644C06B005880EB /* Models.swift */; };
+		498B87312644AA5400963EE4 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B87302644AA5400963EE4 /* CryptoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4912A37A2644A66900452783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4912A37D2644A66900452783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4912A37F2644A66900452783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4912A3862644A6CA00452783 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		49733A0C2644C06B005880EB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		498B87302644AA5400963EE4 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				4912A3712644A66000452783 /* AppDelegate.swift */,
 				4912A3732644A66000452783 /* SceneDelegate.swift */,
+				4912A3862644A6CA00452783 /* APICaller.swift */,
 				4912A3752644A66000452783 /* ViewController.swift */,
+				498B87302644AA5400963EE4 /* CryptoTableViewCell.swift */,
+				49733A0C2644C06B005880EB /* Models.swift */,
 				4912A3772644A66000452783 /* Main.storyboard */,
 				4912A37A2644A66900452783 /* Assets.xcassets */,
 				4912A37C2644A66900452783 /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 				4912A3762644A66000452783 /* ViewController.swift in Sources */,
 				4912A3722644A66000452783 /* AppDelegate.swift in Sources */,
 				4912A3742644A66000452783 /* SceneDelegate.swift in Sources */,
+				49733A0D2644C06C005880EB /* Models.swift in Sources */,
+				498B87312644AA5400963EE4 /* CryptoTableViewCell.swift in Sources */,
+				4912A3872644A6CA00452783 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
